@@ -14,12 +14,11 @@ repositories {
 
 
 dependencies {
-
 //    implementation(project(":core"))
 //    implementation(project(":domain"))
-//    implementation(project(":resource"))
+    implementation(project(":resource"))
     implementation("org.springframework.boot:spring-boot-starter")
-//    implementation(project(":presentation"))
+    implementation(project(":presentation"))
 //    implementation(project(":application"))
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation ("org.springframework.boot:spring-boot-starter-web")
